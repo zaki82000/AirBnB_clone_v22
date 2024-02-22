@@ -54,6 +54,6 @@ class FileStorage:
 
     def delete(self, obj=None):
         if (obj == None):
-            return;
+            return
         elif (obj in self.__objects):
             self.__objects.remove(obj)
